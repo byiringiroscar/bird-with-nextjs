@@ -4,7 +4,7 @@ import Services from "@/components/Services";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="">
       <div className="relative isolate">
         <div
           className="absolute  inset-x-0 -top-40  -z-10 transform-gpu overflow-hidden blur-3xl  sm:-top-80"
