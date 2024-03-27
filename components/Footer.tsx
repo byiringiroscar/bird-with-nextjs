@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-    <section className='flex w-full items-center justify-center pt-12 bg-[#032538]'>
+    <section className='flex w-full items-center justify-center pt-12 bg-[#032538] relative'>
         <Image
         src={home_section}
         alt='curve'

@@ -74,7 +74,7 @@
 
 
   .trial-form {
-    @apply flex w-full lg:w-[600px] justify-between gap-0 mx-auto p-5;
+    @apply flex w-full lg:w-[600px] justify-between gap-0 mx-auto p-1;
   }
   .trial-form input,
   .trial-form button {
@@ -86,7 +86,7 @@
     background: #f5dede !important;
   }
   .trial-form input {
-    @apply grow-[2] pl-5 rounded-tl-md rounded-bl-md py-[10px];
+    @apply grow-[2] pl-1 lg:pl-5 rounded-tl-md rounded-bl-md py-[10px];
     background: #eff0f0;
   }
   .trial-form button {
