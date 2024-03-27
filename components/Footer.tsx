@@ -7,16 +7,11 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-      <section className='flex w-full py-14 bg-[#032538] relative h-[500px] lg:h-[900px]'>
-        <Image
-        src={curve}
-        alt='curve'
-        className='absolute w-full -top-1 lg:-top-1 -z-1'
-        />
+    <section className='flex w-full items-center justify-center pt-12 bg-[#032538]'>
         <Image
         src={home_section}
         alt='curve'
-        className='w-[90%] h-3/4 lg:w-3/4 absolute bottom-0 left-1/2 transform -translate-x-1/2'
+        className='w-[90%] lg:w-3/4'
         />
     </section>
     <footer className='bg-[#02324e] flex flex-col lg:flex-row gap-2 items-center justify-center py-4'>
