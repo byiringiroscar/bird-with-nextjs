@@ -1,5 +1,6 @@
 import Image from "next/image";
 import MainContent from "@/components/MainContent";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
 
         </div>
         <MainContent />
+        <Services />
       </div>
     </div>
   );
