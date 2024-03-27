@@ -15,7 +15,7 @@ const Navbar = () => {
             alt="logo"
             className="h-[50px] w-[50px]"
         />
-        <h3 className='font-bold opensans-font-700 text-[20px] bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Coderazor</h3>
+        <h3 className='font-bold opensans-font-700 text-[15px] lg:text-[20px] bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Coderazor</h3>
         </Link>
         <ul className='hidden h-full gap-12 lg:flex'>
             {NAV_LINKS.map((link) => (
@@ -33,7 +33,7 @@ const Navbar = () => {
             </Link>
             ))}
         </ul>
-        <button className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-white text-base font-bold py-1 px-6 rounded-md transition-all hover:bg-gradient-to-r hover:from-blue-700 hover:via-green-600 hover:to-indigo-500 opensans-font-regular">
+        <button className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-white text-base font-bold py-1 px-2 lg:px-6  rounded-md transition-all hover:bg-gradient-to-r hover:from-blue-700 hover:via-green-600 hover:to-indigo-500 opensans-font-regular">
             Sign In
             </button>
 
