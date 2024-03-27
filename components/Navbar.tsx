@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link
                 href={link.href}
                 key={link.key}
-                className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text text-base font-bold opensans-font-regular transition-all px-2 py-0.5 cursor-pointer rounded relative group text-left'
+                className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text text-[15px] font-bold opensans-font-regular transition-all px-1 py-0.5 cursor-pointer rounded relative group text-left'
             >
                 {link.label}
                 <span 
@@ -33,6 +33,11 @@ const Navbar = () => {
             </Link>
             ))}
         </ul>
+        <button className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-white text-base font-bold py-1 px-6 rounded-md transition-all hover:bg-gradient-to-r hover:from-blue-700 hover:via-green-600 hover:to-indigo-500 opensans-font-regular">
+            Sign In
+            </button>
+
+
     </nav>
   )
 }
