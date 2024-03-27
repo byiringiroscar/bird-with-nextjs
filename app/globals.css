@@ -41,6 +41,12 @@
       )
       rgb(var(--background-start-rgb));
   }
+  .leftSideImage {
+    @apply w-[17%] absolute z-[1] left-0 top-[0px];
+  }
+  .rightSideImage {
+    @apply w-[17%] absolute z-[1] right-0 top-[0px];
+  }
   .opensans-font-regular {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
