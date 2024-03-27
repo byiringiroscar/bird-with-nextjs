@@ -13,7 +13,7 @@ const Navbar = () => {
             width={140}
             height={50}
             alt="logo"
-            className="h-[60px] w-[70px]"
+            className="h-[50px] w-[50px]"
         />
         <h3 className='font-bold opensans-font-700 text-[20px] bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Coderazor</h3>
         </Link>

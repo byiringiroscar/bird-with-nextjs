@@ -9,7 +9,7 @@ const Services = () => {
         <Image
         src={curve}
         alt='curve'
-        className='absolute w-full -top-1 lg:-top-1'
+        className='absolute w-full -top-1 lg:-top- z-50'
         />
         <Image
         src={home_section}

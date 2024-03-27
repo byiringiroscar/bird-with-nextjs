@@ -5,10 +5,10 @@ import Image from 'next/image';
 
 const MainContent = () => {
   return (
-    <div className='w-full relative flex flex-col items-center py-12'>
+    <div className='w-full relative flex flex-col items-center py-20 xl:py-40'>
 
         <p className='border text-[11px] tracking-[0.1px] font-semibold text-[#858585] px-7 py-[5px] rounded-[43px] border-solid border-[#b1aeae] cursor-pointer opensans-font-regular'>Organization</p>
-        <h1 className='text-center text-[41px] leading-[50px] mt-[25px] mb-2.5 pt-0 pb-3 px-0 montserrat-700'><span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Evaluate Candidates</span> Quickly, <br /> Affordably, and Accurately</h1>
+        <h1 className='text-center text-[30px] lg:text-[41px] leading-[40px] lg:leading-[50px] mt-[25px] mb-2.5 pt-0 pb-3 px-0 montserrat-700'><span className='bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text'>Evaluate Candidates</span> Quickly, <br /> Affordably, and Accurately</h1>
         <div className='flex flex-col items-center'>
             <p className='text-center leading-[27px] opacity-70 text-base montserrat-400'>The #1 platform for technical assessments, interviews, and projects.</p>
             <p className='text-center leading-[27px] opacity-70 text-base montserrat-400'>Get unlimited candidates and admins on every plan.</p>
@@ -21,12 +21,12 @@ const MainContent = () => {
         <Image 
             src={leftSide}
             alt='left side'
-            className='leftSideImage'
+            className='leftSideImage z-50'
         />
         <Image 
             src={rightSide}
             alt='right side'
-            className='rightSideImage'
+            className='rightSideImage z-50'
         />
 
     </div>
