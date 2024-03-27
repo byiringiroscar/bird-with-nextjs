@@ -71,5 +71,26 @@
   .group:hover .group-hover\:bg-gradient-span {
     background-image: linear-gradient(to right, #3b82f6, #10b981, #d97706);
   }
+
+
+  .trial-form {
+    @apply flex w-[600px] justify-between gap-0 mx-auto p-5;
+  }
+  .trial-form input,
+  .trial-form button {
+    @apply text-base font-medium leading-[31px] m-0 border-0;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+  }
+  input.emailRequired {
+    background: #f5dede !important;
+  }
+  .trial-form input {
+    @apply grow-[2] pl-5 rounded-tl-md rounded-bl-md py-[10px];
+    background: #eff0f0;
+  }
+  .trial-form button {
+    @apply bg-[#2ED1A5] grow text-white cursor-pointer rounded-tr-md rounded-br-md hover:opacity-90;
+  }
   
 }
